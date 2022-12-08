@@ -18,13 +18,13 @@ The MIDI protocol offers three common mechanisms for controlling MIDI hardware a
 
 # Problem specification
 
-Generally speaking hardware/software sequencers provide easily ediable graphical views of CCs, whilst NRPN and RPN support is very poor.
+Many popular MIDI sequencers provide graphical views of parameter data. NRPN and RPN support is very poor.
 
-The example_CC1_64.mid file contain a four bar sequence for two CC parameters.
+The [CC example file](example_MIDI/example_CC1_2.mid) contains a four bar sequence with two CC parameters rising and falling.
 Apple Logic, Cockos Reaper, Steinberg Cubase, Ableton Live, Avid ProTools present editable views like this. This is no problem.
 
-The example_NRPN1_2.mid file contains a four bar sequence for two NRPN parameters.
-Apple Logic, Cockos Reaper, Steinberg Cubase, Ableton Live, Avid ProTools present ediable views like this. **This is certainly a problem!**
+The [NRPN example file](example_MIDI/example_NRPN1_2.mid) contains a four bar sequence with two NRPN parameters rising and falling.
+Apple Logic, Cockos Reaper, Steinberg Cubase, Ableton Live, Avid ProTools present ediable views like this. **This is very much a problem!**
 
 # Techncical information
 
