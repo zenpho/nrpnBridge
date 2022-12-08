@@ -5,16 +5,16 @@ midi nrpn and rpn support in modern sequencers is very(!) poor - let's fix that
 
 The MIDI protocol offers three common mechanisms for controlling MIDI hardware and software:
 1. Continuous Controllers (CC)
-  - Channel message, indexed by numbers 0-127
-  - Manufactuers assign meaning to each numbered control
-  - Common performance controls include MODWHEEL=CC1, EXPRESSION=CC11, SUSTAIN_PEDAL=CC64
+    1. Channel message, indexed by numbers 0-127
+    2. Manufactuers assign meaning to each numbered control
+    3. Common performance controls include MODWHEEL=CC1, EXPRESSION=CC11, SUSTAIN_PEDAL=CC64
   
 2. Registered Parameter Numbers, and Non Registered Parameter Numbers (RPN and NRPN)
-  - Messaging system built "on top of" CC system (see below)
-  - Channel message(s), indexed by numbers 0-16383
-  - Manufacturers assign meaning to each numbered control 
-  - RPNs are pay-to-play, Midi Manufacturers Association maintains common register 
-  - NRPNs are free-to-play, but you must dig (in manuals) to find the info
+    1. Messaging system built "on top of" CC system (see below)
+    2. Channel message(s), indexed by numbers 0-16383
+    3. Manufacturers assign meaning to each numbered control 
+    4. RPNs are pay-to-play, Midi Manufacturers Association maintains common register 
+    5. NRPNs are free-to-play, but you must dig (in manuals) to find the info
 
 # Problem specification
 
