@@ -10,12 +10,12 @@ It would, of course, be simpler if manufactuers would add proper support. I have
 The [CC example file](example_MIDI/example_CC1_2.mid) contains a four bar sequence with two CC parameters rising and falling.
 Apple Logic, Cockos Reaper, Steinberg Cubase, Ableton Live, Avid Protools display the sequence like this. This is no problem.
 
-(./images/example1_cc.png)
+![cc messages screenshot](./images/example1_cc.png)
 
 The [NRPN example file](example_MIDI/example_NRPN1_2.mid) contains a four bar sequence with two NRPN parameters rising and falling.
 Apple Logic, Cockos Reaper, Steinberg Cubase, Ableton Live, Avid Protools display the sequence like this. **This is very much a problem!**
 
-(./images/example1_nrpn.png)
+![nrpn messages screenshot](./images/example1_nrpn.png)
 
 # How to use the tools
 
