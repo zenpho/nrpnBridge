@@ -3,8 +3,6 @@ midi nrpn and rpn editing in modern sequencers is very(!) difficult - let's fix 
 
 # How to use the tools
 
-The bridge translates NRPN controllers for easier editing.
-
 1. If you do not already have it, download Cycling74 MaxMSP (the free demo is sufficient to use these tools) 
 2. Download and open the "main.maxpat" file to start the bridge.
 3. Define your desired controllers for bridging.
