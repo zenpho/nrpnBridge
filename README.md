@@ -16,7 +16,7 @@ The bridge translates NRPN controllers for easier editing.
 
 Many popular MIDI sequencers provide graphical views of parameter data. NRPN and RPN support is poorly displayed.
 
-These tools transform data into a form that most sequencers display more easily. The conversion is 100% accurate, seamless, and simple.
+These tools transform controller data for sixteen NRPNs into a form that most sequencers display more easily. The conversion is 100% accurate, seamless, and simple.
 It would, of course, be even simpler if manufactuers would add proper support. I have been waiting for over 20 years for some. They have not.
 
 The [CC example file](example_MIDI/example_CC1_2.mid) contains a four bar sequence with two CC parameters rising and falling.
