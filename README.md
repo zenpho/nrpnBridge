@@ -1,6 +1,17 @@
 # nrpnBridge
 midi nrpn and rpn editing in modern sequencers is very(!) difficult - let's fix that
 
+# How to use the tools
+
+The bridge translates NRPN controllers for easier editing.
+
+1. If you do not already have it, download Cycling74 MaxMSP (the free demo is sufficient to use these tools) 
+2. Download and open the "main.maxpat" file to start the bridge.
+3. Define your desired controllers for bridging.
+4. Select a MIDI input and output in the bridge. The "to MaxMSP" and "from MaxMSP" virtual ports may be useful here.
+5. Select the bridge input and output in your sequencer.
+6. Enjoy!
+
 # Problem specification
 
 Many popular MIDI sequencers provide graphical views of parameter data. NRPN and RPN support is poorly displayed.
@@ -18,17 +29,7 @@ Apple Logic, Cockos Reaper, Steinberg Cubase, Ableton Live, Avid Protools displa
 
 ![nrpn messages screenshot](./images/example1_nrpn.png)
 
-# How to use the tools
-
-The bridge will reformat NRPN for easier editing.
-
-1. If you do not already have it, download Cycling74 MaxMSP (the free demo is sufficient to use these tools) 
-2. Download and open the "main.maxpat" file to start the bridge.
-3. Select your MIDI input and output in the bridge.
-4. Select the bridge input and output in your sequencer.
-5. Enjoy!
-
-Apple Logic, Cockos Reaper, Steinberg Cubase, Ableton Live, Avid Protools now display the sequence like this. **Yay!** 
+The bridge translates NRPN data for easier editing.
 
 # Background context
 
